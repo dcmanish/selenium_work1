@@ -11,4 +11,4 @@ current=driver.current_window_handle
 driver.find_element(By.ID,"newWindowBtn").click()
 window1=driver.window_handles[1]
 driver.switch_to.window(current)
-driver.find_element(By.CLASS_NAME,"whButtons").click()
+driver.find_element(By.ID,"newTabBtn").click()
